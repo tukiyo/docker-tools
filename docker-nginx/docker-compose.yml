@@ -1,0 +1,6 @@
+nx:
+  image: nginx
+  volumes:
+    - .:/usr/share/nginx/html:ro
+  ports:
+    - "9000:80"
